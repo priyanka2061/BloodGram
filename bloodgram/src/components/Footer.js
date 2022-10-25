@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import { AiOutlineTwitter } from "react-icons/ai";
-import { TiSocialLinkedin, TiSocialFacebook }
-  from "react-icons/ti";
+import { TiSocialLinkedin, TiSocialFacebook } from "react-icons/ti";
+import { MdExpandLess } from 'react-icons/md'
 import { IoWater } from "react-icons/io5";
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='footer-outer'>
         <div className='footerlogo'>
 
-          <a className='footer-logo'>
+          <a className='footer-logo' href='/home'>
             <svg
               id='logo-14'
               width='73'
@@ -39,13 +39,13 @@ const Footer = () => {
             <p>About Us</p>
             <ul>
               <li>
-                <a href="#"> About Us</a>
+                <a href="/login"> About Us</a>
               </li>
               <li>
-                <a href="#"> How It Works</a>
+                <a href="/login"> How It Works</a>
               </li>
               <li>
-                <a href="#"> Team</a>
+                <a href="/login"> Team</a>
               </li>
 
             </ul>
@@ -54,13 +54,13 @@ const Footer = () => {
             <p>Contact us</p>
             <ul>
               <li>
-                <a href="#"> Contact Us</a>
+                <a href="/login"> Contact Us</a>
               </li>
               <li>
                 <a href="mailto:hello@bloodgram.com"> Bloodgram@gmail</a>
               </li>
               <li>
-                <a href="#"> 78908181819</a>
+                <a href="/login"> 78908181819</a>
               </li>
 
             </ul>
@@ -69,10 +69,10 @@ const Footer = () => {
             <p> Resources</p>
             <ul>
               <li>
-                <a href="#"> Help center</a>
+                <a href="/login"> Help center</a>
               </li>
               <li>
-                <a href="#"> terms & Privacy</a>
+                <a href="login"> terms & Privacy</a>
               </li>
 
 
@@ -87,6 +87,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      <a href='#' className='scroolicon'><MdExpandLess /> </a>
       <div className='footer-copyright'>
         <h1> Save Life <IoWater className='logo-drop' /></h1>
         <p>

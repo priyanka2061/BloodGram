@@ -1,38 +1,38 @@
 import React from 'react';
-import img1 from '../assets/blood.png';
-import '../components/Aboutus.css';
+import Abouts from './Abouts';
+import './Aboutwork.css'
+import pic from "../assets/blood2.jpeg"
 
-function Aboutwork() {
+const Aboutwork = () => {
   return (
-    <div className='wrapper'>
-      <div className='row'>
-        <div className='img_section'>
-          <img src={img1} alt='blood' />
+    <div className='aboutmainpara'>
+      <h1 className='bloodp'> BloodGram</h1>
+      <div className='bloodgramheading'>
+        <div>
+          <img src={pic} alt='img' className='aboutimg' width={300} />
         </div>
-        <div className='content'>
-          <h1>About Us</h1>
-          <h2>We love what we do!</h2>
-          <h4>What is BloodGram? </h4>
-          <p>
-            Bloodgram is a platform which is doing extremely noble deed in
-            getting blood to the needy.
-          </p>
-          <h4>How it works?</h4>
-          <p>
-            We envision that every person receives blood as soon as possible no
-            matter where they are.We're building a virtual army of grantees who
-            can be traced and contacted for those in need of blood.{' '}
-          </p>
-          <h4>Our vision and mission!</h4>
-          <p>
-            Our mission is to ensure that all vulnerable people are protected as
-            best as we can, as a non-profit foundation. We envision that every
-            person receives blood as soon as possible no matter where they are.
-          </p>
+        <div className='content-for-about'>
+          <p className='aboutpara'>Bloodgram is a platform which is doing extremely noble deed in getting blood to the needy.
+            We envision that every person receives blood as soon as possible no matter where they are.
+            We're building a virtual army of  blood donation volunteers who could <br />be traced and
+            contact by family/ those in need of blood.</p>
+          <a href="/form" className='aboutcontact'> Contact Us</a>
         </div>
       </div>
+      <div className='vission-mission'>
+        <div className='vission'>
+          <h1> Our vission</h1>
+          <p>Our mission is to ensure that all vulnerable people are protected as best as we can, as a relief foundation.</p>
+        </div>
+        <div className='mission'>
+          <h1> Our Mission</h1>
+          <p> We envision that every person receives blood as soon as possible no matter where they are.</p>
+        </div>
+      </div >
+      <div className='About-uper'>
+        <Abouts />
+      </div>
     </div>
-  );
+  )
 }
-
 export default Aboutwork;

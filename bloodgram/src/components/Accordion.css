@@ -8,6 +8,8 @@
   border-radius: 5px;
   height: fit-content;
   align-items: center;
+  width: 100%;
+
 }
 
 .accordion-heading {
@@ -75,10 +77,11 @@
     /* grid-template-columns: 1fr 2fr; */
     background-color: #fff;
     max-width: 100vw;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 3rem 2rem;
     border-radius: 5px;
     height: fit-content;
+    width: auto;
   }
 
   .accordion-heading {

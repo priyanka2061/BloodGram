@@ -1,12 +1,11 @@
-import React from 'react';
-import Aboutwork from '../components/Aboutwork';
-import Footer from '../components/Footer';
+import React from 'react'
+import Aboutwork from '../components/Aboutwork'
 
-export default function Aboutus() {
-  return (
-    <div className='aboutus'>
-      <Aboutwork />
-      <Footer />
-    </div>
-  );
+function Aboutus() {
+    return (
+        <div className='aboutus'>
+            <Aboutwork />
+        </div>
+    )
 }
+export default Aboutus;

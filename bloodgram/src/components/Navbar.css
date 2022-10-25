@@ -78,6 +78,7 @@
     box-shadow: 1px 1px 5px #fff;
     position: sticky;
     top: 0;
+    width: auto;
   }
 
   .mobile {

@@ -1,27 +1,26 @@
 import React from 'react';
 import './Login.css';
+import { BsPersonCircle } from 'react-icons/bs'
 
 function Login() {
   return (
     <div className='login-page'>
-      <div className='login'>
-        <div className='login-title'>
-          <h2>Login</h2>
-        </div>
-        <form className='login-form'>
-          <input type='text' placeholder='Email / Phone' className='area' />
-          <input type='password' placeholder='Password' className='area' />
+      <h1>Login Credentials</h1>
+      <div className='login-pack'>
+        <BsPersonCircle className='login-icons' />
+        <form>
+          <label>
+            <input className='inpu'
+              placeholder='Enter Your Email' />
+          </label>
+          <label>
+            <input
+              placeholder='Enter Your Password' />
+          </label>
+          <button className='lo'>LOGIN</button>
         </form>
-        <div className='buttons'>
-          <div className='login-signup'>
-            <button className='l-btn login-btn'>Login</button>
-            <button className='l-btn signup-btn'>Signup</button>
-          </div>
-          <div className='reset'>
-            <p>Forgot your password?</p>
-            <button className='l-btn reset-btn'>Reset Password</button>
-          </div>
-        </div>
+        <div><h2>New to BloodGram?<a href='/signup'>Create an account</a></h2></div>
+        <button className='rese'>Forgot Password</button>
       </div>
     </div>
   );

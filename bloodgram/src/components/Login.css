@@ -1,23 +1,20 @@
 .login-page {
-  background: rgb(125 211 252);
-  height: 100vh;
+  background-color: rgb(252 231 243);
+  height: 90vh;
   width: 100vw;
-  display: flex;
+  display: block;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .login-page h1 {
-  position: absolute;
-  top: 0;
-  left: 31%;
-  top: 5%;
-  font-family: cursive;
-  font-size: 5rem;
-  color: rgb(185 28 28);
-  letter-spacing: 1px;
+  padding-bottom: 3rem;
+  font-size: 3rem;
 }
 
-.login {
+.login-pack {
   background-color: #ffffff;
   margin: 0 auto;
   padding: 5rem 10rem;
@@ -25,195 +22,121 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 60rem;
-  box-shadow: 0 0 5px #777;
+  width: 45rem;
+  height: 40rem;
+  box-shadow: 2px 3.4px 2px 3.4px #777;
   border-radius: 5px;
 }
 
-.login-title {
-  text-align: center;
+
+.login-page form {
+  display: block;
 }
 
-.login-title h2 {
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #555;
-  display: inline-block;
-  font-size: 2.5rem;
+.login-page input {
+  width: 35rem;
+  height: 5rem;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
 }
 
-.login p {
-  font-size: 1.3rem;
-  margin-bottom: 0;
-  padding: 1rem;
-}
-
-.login .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 5rem;
-}
-
-.login-signup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
-  /* margin: 2rem 0 3rem 0; */
-}
-
-.login .l-btn {
-  padding: 1rem 2rem;
+.rese {
+  background-color: maroon;
+  width: 16rem;
+  color: white;
+  height: 4.2rem;
+  padding: 0.7rem;
+  margin-top: 2rem;
   border: none;
-  font-size: 1.5rem;
-  color: #fff;
-  background-color: rgb(34 211 238);
-  border-radius: 5px;
-  font-weight: 600;
-  transition: all 0.33s;
+  border-radius: 1rem;
+  font-family: monterrate;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
-.l-btn:hover {
+.rese:hover {
+  background-color: rgb(190 18 60);
+  border: 2px solid maroon;
+  color: black;
+}
+
+.login-page h2 {
+  margin-top: 3rem;
+}
+
+.login-page .login-icons {
+  width: 20rem;
+  height: 10rem;
+  color: rgb(51 65 85);
+}
+
+.login-page .lo {
+  background-color: maroon;
+  width: 8rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-family: Poppins;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 200;
+  margin-top: 2rem;
   cursor: pointer;
 }
 
-.login-btn:hover {
-  background-color: #eee;
-  color: #000;
-  box-shadow: inset 0 0 0 1px #aaa;
+.login-page a {
+  text-decoration: underline;
 }
 
-.login .signup-btn {
-  background-color: rgb(34 197 94);
+.lo:hover {
+  background-color: rgb(190 18 60);
+  border: 2px solid maroon;
+  color: black;
 }
 
-.signup-btn:hover {
-  background-color: rgb(1, 79, 1);
-}
-
-.login .reset-btn {
-  background-color: rgb(30 58 138);
-  width: 15rem;
-  padding: 0.5rem 1rem;
-}
-
-.login .reset-btn:hover {
-  background-color: rgb(255, 152, 152);
-  color: rgb(85, 4, 4);
-}
-
-@media screen and (max-width: 769px) {
+@media screen and (max-width:769px) {
   .login-page {
-    background: rgb(125 211 252);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 3rem;
+  }
+
+  .login-pack {
+    background-color: #ffffff;
+    padding: 2rem 5rem;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 3.4px 2px 3.4px #777;
+    border-radius: 5px;
+  }
+
+  .login-page input {
+    width: 24rem;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
   }
 
   .login-page h1 {
-    position: absolute;
-    margin: 0 auto;
-    top: 0;
-    left: 25%;
-    top: 18%;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: cursive;
-    color: rgb(185 28 28);
-    letter-spacing: 0.5px;
+    padding-bottom: 2rem;
+    font-size: auto;
   }
 
-  .login {
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 80%;
-    box-shadow: 0 0 5px #777;
-    border-radius: 5px;
-  }
-
-  .login-title {
-    text-align: center;
-  }
-
-  .login-title h2 {
-    margin-bottom: 1.5rem;
-    border-bottom: 2px solid #555;
-    display: inline-block;
-    font-size: 1.5rem;
-    line-height: 1.42857143;
-    font-family: Monterrat;
-  }
-
-  .area {
-    width: 230px;
-  }
-
-  .login p {
-    font-size: 1.3rem;
-    margin-bottom: 0;
-    padding: 1rem;
-  }
-
-  .login .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5rem;
-  }
-
-  .login-signup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    /* margin: 2rem 0 3rem 0; */
-  }
-
-  .login .l-btn {
-    padding: 1rem 2rem;
+  .login-page .lo {
+    background-color: maroon;
+    width: 8rem;
+    height: 4rem;
     border: none;
-    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: Poppins;
     color: #fff;
-    background-color: rgb(34 211 238);
-    border-radius: 5px;
-    font-weight: 400;
-    transition: all 0.33s;
-  }
-
-  .l-btn:hover {
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin-top: 2rem;
     cursor: pointer;
   }
-
-  .login-btn:hover {
-    background-color: rgb(139 92 246);
-    ;
-    color: #000;
-    box-shadow: inset 0 0 0 1px #aaa;
-  }
-
-  .login .signup-btn {
-    background-color: rgb(34 197 94);
-  }
-
-  .signup-btn:hover {
-    background-color: rgb(1, 79, 1);
-  }
-
-  .login .reset-btn {
-    background-color: rgb(30 58 138);
-    width: 15rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .login .reset-btn:hover {
-    background-color: rgb(255, 152, 152);
-    color: rgb(85, 4, 4);
-  }
-
 }

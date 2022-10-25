@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import './index.css';
-import App from './App';
 import Home from './routes/Home';
 import Donate from './routes/Donate';
 import Donaters from './routes/Donaters';
@@ -12,6 +11,8 @@ import Navbar from './components/Navbar';
 import Aboutus from './routes/Aboutus';
 import Final from './redirect/Final';
 import Hospitals from './Hospital/HospitalFinal';
+import Signup from './components/Signup';
+import Form from './components/Form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,8 +33,9 @@ root.render(
           />
           <Route path='hospitals' element={<Hospitals />} />
         </Route>
-
         <Route path='Login' element={<Login />} />
+        <Route path='signup' element={<Signup />} />
+        <Route path='form' element={<Form />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

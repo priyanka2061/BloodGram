@@ -1,0 +1,41 @@
+.main-about {
+  background-color: maroon;
+  padding: 9rem 0;
+  align-items: center;
+  position: relative;
+  width: auto;
+}
+
+.about-title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.slick-slide {
+  margin: auto;
+}
+
+.tn-bg-blob {
+  height: 550px;
+  width: 550px;
+  background: red;
+  filter: blur(160.58px);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media screen and (max-width:769px) {
+  .tn-bg-blob {
+    height: auto;
+    width: auto;
+    background: red;
+    filter: blur(160.58px);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
