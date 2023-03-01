@@ -16,14 +16,14 @@ export default function Signup() {
                     Full Name <span>*</span>:
                     <div className="nameic">
                         <HiUser className="icons" />
-                        <input type="text" placeholder="fullName" />
+                        <input type="text" placeholder="   fullName" />
                     </div>
                 </label>
                 <label>
                     Email <span>*</span>:
                     <div className="nameic">
                         <AiOutlineMail className="icons" />
-                        <input type="email" placeholder="valid email id" />
+                        <input type="email" placeholder="   valid email id" />
                     </div>
                 </label>
             </form>
@@ -32,14 +32,14 @@ export default function Signup() {
                     Mobile No <span>*</span> :
                     <div className="nameic">
                         <AiFillPhone className="icons" />
-                        <input type="text" placeholder="Mobile No." />
+                        <input type="text" placeholder="   Mobile No." />
                     </div>
                 </label>
                 <label>
                     Create Password <span>*</span>:
                     <div className="nameic">
                         <RiLockPasswordFill className="icons" />
-                        <input type="text" placeholder="Password" />
+                        <input type="text" placeholder="   Password" />
                     </div>
                 </label>
             </form>

@@ -24,6 +24,7 @@ const Donaters = () => {
   return (
  
     <div className='test'>
+      <h1  className='userreview'> User Review</h1>
         {/* <h2> Single Item</h2> */}
       <Slider {...settings}>
       {test.map((value, index) => {

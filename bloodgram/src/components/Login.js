@@ -5,17 +5,17 @@ import { BsPersonCircle } from 'react-icons/bs'
 function Login() {
   return (
     <div className='login-page'>
-      <h1>Login Credentials</h1>
+      {/* <h1>Login Credentials</h1> */}
       <div className='login-pack'>
         <BsPersonCircle className='login-icons' />
         <form>
           <label>
-            <input className='inpu'
-              placeholder='Enter Your Email' />
+            <input  type='text'className='inpu'
+              placeholder='  Enter Your Email' />
           </label>
           <label>
             <input
-              placeholder='Enter Your Password' />
+              placeholder='   Enter Your Password' type='text'/>
           </label>
           <button className='lo'>LOGIN</button>
         </form>

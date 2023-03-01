@@ -8,7 +8,7 @@ import {
 const DonateWork = (props) => {
   return (
     <div class='request-ls'>
-      <div classname='request'>Requested list of users for you</div>
+     
       <div className='donatemain'>
         <div class='doante-content'>
           <form className='donate-form'>

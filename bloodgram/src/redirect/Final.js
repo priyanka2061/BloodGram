@@ -7,7 +7,6 @@ import App from './App';
 const final = () => {
   return (
     <div className='index_div'>
-      <h1>Our available Donors</h1>
       {List_of_user_set.map((value, index) => {
         return (
           <App
@@ -19,10 +18,10 @@ const final = () => {
           />
         );
       })}
-      <div className='goto'>
+      {/* <div className='goto'>
         <h3>Search for Blood Bank </h3>
         <Link to='hospitals'>Click Here</Link>
-      </div>
+      </div> */}
       <Outlet />
     </div>
   );

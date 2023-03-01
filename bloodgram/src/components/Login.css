@@ -1,12 +1,21 @@
 .login-page {
-  background-color: rgb(252 231 243);
-  height: 90vh;
+  background-color: white;
+  height: 100%;
   width: 100vw;
   display: block;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 5rem;
+  
+  padding-top: 3rem;
+
+}
+.newto p
+{
+  padding: 2rem;
+  font-size: 1rem;
+  padding-left:0;
+  
 }
 
 .login-page h1 {
@@ -17,15 +26,15 @@
 .login-pack {
   background-color: #ffffff;
   margin: 0 auto;
-  padding: 5rem 10rem;
+  padding: 4rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 45rem;
+  width: 18rem;
   height: 40rem;
-  box-shadow: 2px 3.4px 2px 3.4px #777;
-  border-radius: 5px;
+  box-shadow: 0px 1px 1px 2px rgb(112, 116, 117);
+  /* border-radius: 5px; */
 }
 
 
@@ -34,18 +43,19 @@
 }
 
 .login-page input {
-  width: 35rem;
-  height: 5rem;
+  width: 30rem;
+  height: 3rem;
   margin-left: 1rem;
   margin-top: 3rem;
   border-radius: 1rem;
+  border-color: rgb(99, 11, 11);
 }
 
 .rese {
   background-color: maroon;
   width: 16rem;
   color: white;
-  height: 4.2rem;
+  height: 3rem;
   padding: 0.7rem;
   margin-top: 2rem;
   border: none;
@@ -62,19 +72,20 @@
 }
 
 .login-page h2 {
+  margin: 0%;
   margin-top: 3rem;
 }
 
 .login-page .login-icons {
   width: 20rem;
   height: 10rem;
-  color: rgb(51 65 85);
+  border: black;
 }
 
 .login-page .lo {
   background-color: maroon;
-  width: 8rem;
-  height: 4rem;
+  width: 30rem;
+  height: 3rem;
   border: none;
   border-radius: 1rem;
   padding: 1rem;
@@ -83,6 +94,7 @@
   letter-spacing: 2px;
   font-weight: 200;
   margin-top: 2rem;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -115,6 +127,7 @@
   .login-page input {
     width: 24rem;
     height: 4rem;
+    padding: 5px;
     margin-left: 1rem;
     margin-top: 3rem;
     border-radius: 1rem;
