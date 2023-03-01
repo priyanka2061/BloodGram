@@ -74,8 +74,6 @@ Step 3:
 **⚡️Credits :**
  ```
 github id: priyanka2061
-github id: MuskanSharma25
 github id: maiayushoon
-github id: SiddharthReddyEnjam
 github id: Prat10
  ```
